@@ -1,0 +1,58 @@
+# Unity-generated folders
+# These directories are recreated by Unity and should never be committed.
+/.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity-generated and crash-report files
+/ExportedObj/
+sysinfo.txt
+*.log
+
+# Generated IDE files (Visual Studio, Rider, MonoDevelop, and Consulo)
+/.vs/
+/.idea/
+/.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.sln.iml
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Platform and package build outputs
+/.gradle/
+*.apk
+*.aab
+*.app
+*.unitypackage
+crashlytics-build.properties
+
+# Project assets are distributed separately and are not stored in Git.
+/[Aa]ssets/
+/[Aa]ssets.meta
+
+# Keep Unity settings, package manifests, and repository documentation tracked.
+!/[Pp]roject[Ss]ettings/
+!/[Pp]ackages/
+!/.gitignore
+!/.gitattributes
+!/[Rr][Ee][Aa][Dd][Mm][Ee]*
+!/[Ll][Ii][Cc][Ee][Nn][Ss][Ee]*
