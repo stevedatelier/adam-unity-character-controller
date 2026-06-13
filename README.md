@@ -136,7 +136,7 @@ To experience the latest version: [adam10.com](https://adam10.com)
 
 *Mar 30 '26 — Adam 1.0, Physical Intelligence Architecture*
 
-![ADAM Architecture Overview](docs/images/hero-architecture.svg)
+<img src="docs/images/hero-architecture.svg" alt="ADAM Architecture Overview" width="100%">
 
 ADAM's architecture is organized around a single division of responsibility. The system's motion vocabulary is authored, finite, and calibrated by the engine. The language interface is fully open-ended, accepting any phrasing a speaker might use to describe movement — including figurative, qualified, and contextual language.
 
@@ -157,7 +157,7 @@ When a voice command triggers the routing pipeline, the end-to-end path from spe
 | Post-processing | <5ms |
 | **Total** | **<270ms w/ LLM** |
 
-![Latency Breakdown](docs/images/chart-latency-breakdown.svg)
+<img src="docs/images/chart-latency-breakdown.svg" alt="Latency Breakdown" width="560">
 
 Stage 1 heuristic: zero inference cost.
 
@@ -169,9 +169,9 @@ Stage 1 heuristic: zero inference cost.
 | Generic operator | ~85ms |
 | Heuristic (Stage 1) | <5ms |
 
-![vs. Baseline](docs/images/chart-vs-baseline.svg)
+<img src="docs/images/chart-vs-baseline.svg" alt="vs. Baseline" width="560">
 
-![Streaming Mode](docs/images/chart-streaming-mode.svg)
+<img src="docs/images/chart-streaming-mode.svg" alt="Streaming Mode" width="560">
 
 Stage 1 resolves most prompts with zero inference cost.
 
@@ -223,7 +223,7 @@ Every prompt passes through a four-stage deterministic cascade. Each stage has d
 | Stage 4 | Calibration | Deterministic calibration: scope filtering, alternation sequencing, duration expansion, and normalization |
 | Output | Action plan | Engine-executable plan |
 
-![Figure 1 — Routing Pipeline](docs/images/figure-1-routing-pipeline.svg)
+<img src="docs/images/figure-1-routing-pipeline.svg" alt="Figure 1 — Routing Pipeline" width="480">
 
 *Figure 1. Four-stage routing cascade. Stage 1 pattern-matches against the authored motion vocabulary — a match exits immediately with zero inference cost. Stage 2 fires only when Stage 1 returns null. Stage 3 merges overlays onto locomotion bases and applies fallback logic. Stage 4 applies deterministic calibration.*
 
@@ -240,7 +240,7 @@ All motion output reduces to two mechanical operators. Research on action percep
 
 Every motion in the system — authored or LLM-selected — reduces to one of these two primitives.
 
-![Figure 2 — Motion Operator Primitives](docs/images/figure-2-motion-primitives.svg)
+<img src="docs/images/figure-2-motion-primitives.svg" alt="Figure 2 — Motion Operator Primitives" width="560">
 
 *Figure 2. Every motion in the system — authored or LLM-selected — reduces to one of two primitives. Hold commits to a position and remains. Oscillate moves out and returns, structurally, on every cycle.*
 
@@ -259,7 +259,7 @@ The motion vocabulary is organized into four tiers. The tier structure encodes c
 
 *T1.5 overlays branch from T1 — they layer onto locomotion or stand alone as stationary poses. T2 preserves authored timing and bypasses normalization. No combination of tier selections produces physically incoherent output.*
 
-![Figure 3 — Authored Vocabulary Tiers](docs/images/figure-3-vocabulary-tiers.svg)
+<img src="docs/images/figure-3-vocabulary-tiers.svg" alt="Figure 3 — Authored Vocabulary Tiers" width="100%">
 
 *Figure 3. The four-tier vocabulary. T1.5 overlays branch from T1 — they layer onto locomotion or stand alone as stationary poses. T2 preserves authored timing and bypasses normalization. No combination of tier selections produces physically incoherent output.*
 
@@ -301,7 +301,7 @@ Format B routes through the engine's native operator paths directly, bypassing t
 
 *Format B routes through the engine's native operator paths with no shaper inflation. Format A is the correct default when the model is uncertain.*
 
-![Figure 4 — LLM Output Schema](docs/images/figure-4-llm-schema.svg)
+<img src="docs/images/figure-4-llm-schema.svg" alt="Figure 4 — LLM Output Schema" width="100%">
 
 *Figure 4. The dual-format LLM output schema. Format B routes through the engine's native operator paths with no shaper inflation. Format A is the correct default when the model is uncertain.*
 
