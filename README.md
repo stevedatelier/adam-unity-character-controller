@@ -136,9 +136,7 @@ To experience the latest version: [adam10.com](https://adam10.com)
 
 *Mar 30 '26 — Adam 1.0, Physical Intelligence Architecture*
 
-<!-- HERO DIAGRAM -->
-<!-- Replace with: ![ADAM Architecture Overview](assets/images/hero-architecture.png) -->
-<!-- The hero shows ADAM at center connected to: Voice Input, Heuristic Layer, LLM Gate (left) and Synthesis, Post-processing, Engine Output (right) via animated dashed lines -->
+![ADAM Architecture Overview](assets/images/hero-architecture.svg)
 
 ADAM's architecture is organized around a single division of responsibility. The system's motion vocabulary is authored, finite, and calibrated by the engine. The language interface is fully open-ended, accepting any phrasing a speaker might use to describe movement — including figurative, qualified, and contextual language.
 
@@ -159,9 +157,7 @@ When a voice command triggers the routing pipeline, the end-to-end path from spe
 | Post-processing | <5ms |
 | **Total** | **<270ms w/ LLM** |
 
-<!-- CHART: Latency Breakdown (tab 1 of 3) -->
-<!-- Replace with: ![Latency Breakdown](assets/images/chart-latency-breakdown.png) -->
-<!-- Bar chart — STT ~80ms, LLM Gate ~180ms, Post-proc <5ms, Total <270ms. Caption: Stage 1 heuristic: zero inference cost -->
+![Latency Breakdown](assets/images/chart-latency-breakdown.svg)
 
 Stage 1 heuristic: zero inference cost.
 
@@ -173,13 +169,9 @@ Stage 1 heuristic: zero inference cost.
 | Generic operator | ~85ms |
 | Heuristic (Stage 1) | <5ms |
 
-<!-- CHART: vs. Baseline (tab 2 of 3) -->
-<!-- Replace with: ![vs. Baseline](assets/images/chart-vs-baseline.png) -->
-<!-- Bar chart — LLM (full) ~270ms, Generic op ~85ms, Heuristic <5ms. Caption: Stage 1 resolves most prompts — zero inference -->
+![vs. Baseline](assets/images/chart-vs-baseline.svg)
 
-<!-- CHART: Streaming Mode (tab 3 of 3) -->
-<!-- Replace with: ![Streaming Mode](assets/images/chart-streaming-mode.png) -->
-<!-- Timeline — Stage 2 (LLM): STT + LLM Inference + POST ~270ms vs Stage 1 (Heuristic): STT + Match + POST <5ms. Caption: Heuristic: LLM bypassed for most traffic -->
+![Streaming Mode](assets/images/chart-streaming-mode.svg)
 
 Stage 1 resolves most prompts with zero inference cost.
 
@@ -231,10 +223,9 @@ Every prompt passes through a four-stage deterministic cascade. Each stage has d
 | Stage 4 | Calibration | Deterministic calibration: scope filtering, alternation sequencing, duration expansion, and normalization |
 | Output | Action plan | Engine-executable plan |
 
-<!-- FIGURE 1: Four-stage routing cascade -->
-<!-- Replace with: ![Figure 1 — Routing Pipeline](assets/images/figure-1-routing-pipeline.png) -->
-<!-- Vertical node list connected by a line: Input (Natural language) → Stage 1 (Heuristic match) with tag "walk - run - brace" → Stage 2 (Language model, dark node) with tag "Format B - direct" → Stage 3 (Synthesis) → Stage 4 (Calibration) → Output (Action plan) -->
-<!-- Caption: Figure 1. Four-stage routing cascade. Stage 1 pattern-matches against the authored motion vocabulary — a match exits immediately with zero inference cost. Stage 2 fires only when Stage 1 returns null. Stage 3 merges overlays onto locomotion bases and applies fallback logic. Stage 4 applies deterministic calibration: scope filtering, alternation sequencing, duration expansion, and normalization. -->
+![Figure 1 — Routing Pipeline](assets/images/figure-1-routing-pipeline.svg)
+
+*Figure 1. Four-stage routing cascade. Stage 1 pattern-matches against the authored motion vocabulary — a match exits immediately with zero inference cost. Stage 2 fires only when Stage 1 returns null. Stage 3 merges overlays onto locomotion bases and applies fallback logic. Stage 4 applies deterministic calibration.*
 
 ---
 
@@ -249,9 +240,9 @@ All motion output reduces to two mechanical operators. Research on action percep
 
 Every motion in the system — authored or LLM-selected — reduces to one of these two primitives.
 
-<!-- FIGURE 2: Motion Operator Primitives -->
-<!-- Replace with: ![Figure 2 — Motion Primitives](assets/images/figure-2-motion-primitives.png) -->
-<!-- SVG split in two halves. Left: "Hold" — dashed arc arriving at a filled dot with tick marks above/below (held position). Right: "Oscillate" — sine-wave path across a baseline, alternating solid and dashed segments with directional arrows. Caption: Figure 2. Every motion in the system — authored or LLM-selected — reduces to one of two primitives. Hold commits to a position and remains. Oscillate moves out and returns, structurally, on every cycle. -->
+![Figure 2 — Motion Operator Primitives](assets/images/figure-2-motion-primitives.svg)
+
+*Figure 2. Every motion in the system — authored or LLM-selected — reduces to one of two primitives. Hold commits to a position and remains. Oscillate moves out and returns, structurally, on every cycle.*
 
 ---
 
@@ -268,9 +259,9 @@ The motion vocabulary is organized into four tiers. The tier structure encodes c
 
 *T1.5 overlays branch from T1 — they layer onto locomotion or stand alone as stationary poses. T2 preserves authored timing and bypasses normalization. No combination of tier selections produces physically incoherent output.*
 
-<!-- FIGURE 3: Authored Vocabulary Tiers -->
-<!-- Replace with: ![Figure 3 — Authored Vocabulary](assets/images/figure-3-vocabulary-tiers.png) -->
-<!-- Vertical tier list with a connecting spine line. T1 (filled dot, dark): Locomotion — tags: walk jog run sprint dance play fight. T1.5 (hollow dot, branching): Character Overlays — tags: zombie injured proud scared drunk. T2 (filled dot): Postural-Reactive — tags: alert cautious aim triumphant collapse recoil sneak brace search hesitate approach retreat. T3 (filled dot): Single-Region — tags: move/rotate arms, legs, forearms, head, body, left/right variants. Caption: Figure 3. -->
+![Figure 3 — Authored Vocabulary Tiers](assets/images/figure-3-vocabulary-tiers.svg)
+
+*Figure 3. The four-tier vocabulary. T1.5 overlays branch from T1 — they layer onto locomotion or stand alone as stationary poses. T2 preserves authored timing and bypasses normalization. No combination of tier selections produces physically incoherent output.*
 
 ---
 
@@ -310,9 +301,9 @@ Format B routes through the engine's native operator paths directly, bypassing t
 
 *Format B routes through the engine's native operator paths with no shaper inflation. Format A is the correct default when the model is uncertain.*
 
-<!-- FIGURE 4: LLM Output Schema -->
-<!-- Replace with: ![Figure 4 — LLM Output Schema](assets/images/figure-4-llm-schema.png) -->
-<!-- Two side-by-side schema cards. Left card (FORMAT A): fields phrases/mode/energy/tempo/pose with JSON example {"phrases":["walk","zombie"],"energy":"low","tempo":"slow","pose":false}. Right card (FORMAT B): fields selection/group/laterality/lead_side/cycles with JSON example {"selection":"oscillate","group":"arms","laterality":"alternate","lead_side":"left","cycles":3}. Caption: Figure 4. The dual-format LLM output schema. Format B routes through the engine's native operator paths with no shaper inflation. Format A is the correct default when the model is uncertain. -->
+![Figure 4 — LLM Output Schema](assets/images/figure-4-llm-schema.svg)
+
+*Figure 4. The dual-format LLM output schema. Format B routes through the engine's native operator paths with no shaper inflation. Format A is the correct default when the model is uncertain.*
 
 ---
 
