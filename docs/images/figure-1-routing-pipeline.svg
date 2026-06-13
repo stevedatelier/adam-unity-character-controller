@@ -1,0 +1,51 @@
+<svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="500" fill="#f7f7f7" rx="12"/>
+
+  <!-- Spine -->
+  <line x1="68" y1="52" x2="68" y2="458" stroke="#ddd" stroke-width="1"/>
+
+  <!-- INPUT node -->
+  <circle cx="68" cy="52" r="18" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+  <circle cx="68" cy="52" r="4" fill="#ccc"/>
+  <text x="96" y="48" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#999">INPUT</text>
+  <text x="96" y="64" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#111">Natural language</text>
+
+  <!-- STAGE 1 node -->
+  <circle cx="68" cy="140" r="18" fill="#fafafa" stroke="#413E3E" stroke-width="1.5"/>
+  <circle cx="68" cy="140" r="4" fill="#413E3E"/>
+  <text x="96" y="136" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#999">STAGE 1</text>
+  <text x="96" y="152" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#111">Heuristic match</text>
+  <!-- tag -->
+  <line x1="220" y1="145" x2="248" y2="145" stroke="#ddd" stroke-width="1"/>
+  <rect x="248" y="133" width="130" height="24" rx="4" fill="rgba(65,62,62,0.06)" stroke="rgba(65,62,62,0.2)" stroke-width="1"/>
+  <text x="313" y="149" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.7)" text-anchor="middle">walk · run · brace</text>
+
+  <!-- STAGE 2 node (dark) -->
+  <circle cx="68" cy="228" r="18" fill="#413E3E"/>
+  <circle cx="68" cy="228" r="4" fill="#fafafa"/>
+  <text x="96" y="224" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#666">STAGE 2</text>
+  <rect x="96" y="212" width="130" height="26" rx="4" fill="#413E3E"/>
+  <text x="161" y="229" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#fff" text-anchor="middle">Language model</text>
+  <!-- tag -->
+  <line x1="236" y1="233" x2="264" y2="233" stroke="#888" stroke-width="1"/>
+  <rect x="264" y="221" width="120" height="24" rx="4" fill="rgba(65,62,62,0.1)" stroke="rgba(65,62,62,0.3)" stroke-width="1"/>
+  <text x="324" y="237" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.75)" text-anchor="middle">Format B — direct</text>
+
+  <!-- STAGE 3 node -->
+  <circle cx="68" cy="316" r="18" fill="#fafafa" stroke="#413E3E" stroke-width="1.5"/>
+  <circle cx="68" cy="316" r="4" fill="#413E3E"/>
+  <text x="96" y="312" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#999">STAGE 3</text>
+  <text x="96" y="328" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#111">Synthesis</text>
+
+  <!-- STAGE 4 node -->
+  <circle cx="68" cy="394" r="18" fill="#fafafa" stroke="#413E3E" stroke-width="1.5"/>
+  <circle cx="68" cy="394" r="4" fill="#413E3E"/>
+  <text x="96" y="390" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#999">STAGE 4</text>
+  <text x="96" y="406" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#111">Calibration</text>
+
+  <!-- OUTPUT node -->
+  <circle cx="68" cy="458" r="18" fill="#f7f7f7" stroke="#ddd" stroke-width="1.5"/>
+  <circle cx="68" cy="458" r="4" fill="#ccc"/>
+  <text x="96" y="454" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.1em" fill="#999">OUTPUT</text>
+  <text x="96" y="470" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#111">Action plan</text>
+</svg>

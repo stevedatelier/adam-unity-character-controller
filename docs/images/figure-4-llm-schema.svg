@@ -1,0 +1,84 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="360" fill="#f7f7f7" rx="12"/>
+
+  <!-- FORMAT A card -->
+  <rect x="0" y="0" width="272" height="360" rx="5" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <!-- header -->
+  <rect x="0" y="0" width="272" height="42" rx="5" fill="#f7f7f7"/>
+  <rect x="0" y="28" width="272" height="14" fill="#f7f7f7"/>
+  <line x1="0" y1="42" x2="272" y2="42" stroke="rgba(65,62,62,0.12)" stroke-width="1"/>
+  <text x="14" y="18" font-family="monospace" font-size="12" fill="#111">FORMAT A</text>
+  <text x="14" y="34" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="#666">Expressive, figurative, qualified, overlay prompts</text>
+  <!-- fields -->
+  <text x="14" y="66" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">phrases</text>
+  <text x="14" y="80" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" fill="rgba(65,62,62,0.5)">req</text>
+  <text x="90" y="66" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">2–6 strings from authored vocab.</text>
+  <text x="90" y="80" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">At most one T1.5 overlay entry.</text>
+
+  <line x1="14" y1="92" x2="258" y2="92" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="14" y="108" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">mode</text>
+  <text x="90" y="108" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"steps" · "sequential" · "parallel"</text>
+
+  <line x1="14" y1="120" x2="258" y2="120" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="14" y="136" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">energy</text>
+  <text x="90" y="136" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"low" · "med" · "high"</text>
+  <text x="90" y="150" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">scales amplitude</text>
+
+  <line x1="14" y1="162" x2="258" y2="162" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="14" y="178" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">tempo</text>
+  <text x="90" y="178" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"fast" · "med" · "slow"</text>
+  <text x="90" y="192" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">scales timing</text>
+
+  <line x1="14" y1="204" x2="258" y2="204" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="14" y="220" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">pose</text>
+  <text x="90" y="220" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">boolean, suppresses</text>
+  <text x="90" y="234" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">duration expansion</text>
+
+  <!-- JSON example -->
+  <rect x="14" y="248" width="244" height="52" rx="4" fill="#f7f7f7" stroke="rgba(65,62,62,0.12)" stroke-width="1"/>
+  <text x="22" y="263" font-family="monospace" font-size="9.5" fill="#777">{"phrases":["walk","zombie"],</text>
+  <text x="22" y="278" font-family="monospace" font-size="9.5" fill="#777"> "energy":"low","tempo":"slow",</text>
+  <text x="22" y="293" font-family="monospace" font-size="9.5" fill="#777"> "pose":false}</text>
+
+  <!-- FORMAT B card -->
+  <rect x="288" y="0" width="272" height="360" rx="5" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <!-- header -->
+  <rect x="288" y="0" width="272" height="42" rx="5" fill="#f7f7f7"/>
+  <rect x="288" y="28" width="272" height="14" fill="#f7f7f7"/>
+  <line x1="288" y1="42" x2="560" y2="42" stroke="rgba(65,62,62,0.12)" stroke-width="1"/>
+  <text x="302" y="18" font-family="monospace" font-size="12" fill="#111">FORMAT B</text>
+  <text x="302" y="34" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="#666">Single operator, single group, simple bilateral</text>
+  <!-- fields -->
+  <text x="302" y="66" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">selection</text>
+  <text x="302" y="80" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" fill="rgba(65,62,62,0.5)">req</text>
+  <text x="378" y="66" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"hold/pose" or "oscillate"</text>
+  <text x="378" y="80" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">primary semantic decision</text>
+
+  <line x1="302" y1="92" x2="546" y2="92" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="302" y="108" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">group</text>
+  <text x="302" y="122" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" fill="rgba(65,62,62,0.5)">req</text>
+  <text x="378" y="108" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"arms" · "forearms" · "legs"</text>
+  <text x="378" y="122" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"knees" · "head" · "hips"</text>
+
+  <line x1="302" y1="134" x2="546" y2="134" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="302" y="150" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">laterality</text>
+  <text x="302" y="164" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" fill="rgba(65,62,62,0.5)">req</text>
+  <text x="378" y="150" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"together" · "alternate"</text>
+  <text x="378" y="164" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">"left only" · "right only"</text>
+
+  <line x1="302" y1="176" x2="546" y2="176" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="302" y="192" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">lead_side</text>
+  <text x="378" y="192" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">initiating side when</text>
+  <text x="378" y="206" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">laterality is "alternate"</text>
+
+  <line x1="302" y1="218" x2="546" y2="218" stroke="rgba(65,62,62,0.08)" stroke-width="1"/>
+  <text x="302" y="234" font-family="monospace" font-size="11" fill="rgba(65,62,62,0.65)">cycles</text>
+  <text x="378" y="234" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">integer 1–6, complete</text>
+  <text x="378" y="248" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="#444">pattern repetitions</text>
+
+  <!-- JSON example -->
+  <rect x="302" y="262" width="244" height="52" rx="4" fill="#f7f7f7" stroke="rgba(65,62,62,0.12)" stroke-width="1"/>
+  <text x="310" y="277" font-family="monospace" font-size="9.5" fill="#777">{"selection":"oscillate",</text>
+  <text x="310" y="292" font-family="monospace" font-size="9.5" fill="#777"> "group":"arms","laterality":</text>
+  <text x="310" y="307" font-family="monospace" font-size="9.5" fill="#777"> "alternate","cycles":3}</text>
+</svg>

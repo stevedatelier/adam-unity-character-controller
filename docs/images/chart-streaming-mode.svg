@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="280" fill="#f7f7f7" rx="12"/>
+  <text x="280" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.12em" fill="rgba(65,62,62,0.68)" text-anchor="middle">STAGE 1 vs. STAGE 2 PROCESSING PATH</text>
+
+  <text x="60" y="58" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)">STAGE 2 (LLM)</text>
+  <rect x="60" y="68" width="90" height="22" rx="3" fill="rgba(65,62,62,0.68)"/>
+  <text x="105" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">STT</text>
+  <rect x="160" y="68" width="160" height="22" rx="3" fill="rgba(65,62,62,0.6)"/>
+  <text x="240" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">LLM INFERENCE</text>
+  <rect x="330" y="68" width="60" height="22" rx="3" fill="rgba(65,62,62,0.62)"/>
+  <text x="360" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">POST</text>
+  <text x="405" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="rgba(65,62,62,0.6)">~270ms</text>
+
+  <text x="60" y="148" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)">STAGE 1 (HEURISTIC)</text>
+  <rect x="60" y="158" width="90" height="22" rx="3" fill="rgba(65,62,62,0.75)"/>
+  <text x="105" y="173" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">STT</text>
+  <rect x="160" y="158" width="40" height="22" rx="3" fill="rgba(65,62,62,0.65)"/>
+  <text x="180" y="173" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Match</text>
+  <rect x="208" y="158" width="40" height="22" rx="3" fill="rgba(65,62,62,0.55)"/>
+  <text x="228" y="173" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">POST</text>
+  <text x="258" y="173" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.6)">&lt;5ms</text>
+
+  <line x1="60" y1="220" x2="500" y2="220" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="60" y="235" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="rgba(65,62,62,0.62)">0</text>
+  <text x="170" y="235" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="rgba(65,62,62,0.62)">80ms</text>
+  <text x="280" y="235" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="rgba(65,62,62,0.62)">180ms</text>
+  <text x="390" y="235" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8" fill="rgba(65,62,62,0.62)">270ms</text>
+  <text x="280" y="266" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.04em" fill="rgba(65,62,62,0.62)" text-anchor="middle">Heuristic: LLM bypassed for most traffic</text>
+</svg>

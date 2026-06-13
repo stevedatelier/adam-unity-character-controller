@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1024 540" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <rect width="1024" height="540" fill="#2C2B27"/>
+  <line x1="0" y1="180" x2="1024" y2="180" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="360" x2="1024" y2="360" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="341" y1="0" x2="341" y2="540" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="682" y1="0" x2="682" y2="540" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <circle cx="512" cy="270" r="64" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <circle cx="512" cy="270" r="42" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="512" y="266" fill="rgba(255,255,255,0.9)" font-family="monospace" font-size="11" letter-spacing="0.12em" text-anchor="middle">ADAM</text>
+  <text x="512" y="281" fill="rgba(255,255,255,0.45)" font-family="monospace" font-size="8" letter-spacing="0.1em" text-anchor="middle">1.0</text>
+
+  <circle cx="512" cy="270" r="64" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1">
+    <animate attributeName="r" values="64;140" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="512" cy="270" r="64" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1">
+    <animate attributeName="r" values="64;140" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Voice Input -->
+  <g>
+    <rect x="80" y="90" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="150" y="114" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">VOICE INPUT</text>
+    <text x="150" y="129" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Natural Language</text>
+    <line x1="220" y1="118" x2="448" y2="240" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="220" cy="118" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- Heuristic Layer -->
+  <g>
+    <rect x="80" y="242" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="150" y="266" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">HEURISTIC</text>
+    <text x="150" y="281" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Pattern Matching</text>
+    <line x1="220" y1="270" x2="448" y2="270" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="220" cy="270" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- LLM Gate -->
+  <g>
+    <rect x="80" y="394" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="150" y="418" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">LLM GATE</text>
+    <text x="150" y="433" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Semantic Disambiguation</text>
+    <line x1="220" y1="422" x2="448" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="220" cy="422" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- Synthesis -->
+  <g>
+    <rect x="804" y="90" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="874" y="114" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">SYNTHESIS</text>
+    <text x="874" y="129" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Intent &#x2192; Action Plan</text>
+    <line x1="576" y1="240" x2="804" y2="118" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="804" cy="118" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- Post-processing -->
+  <g>
+    <rect x="804" y="242" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="874" y="266" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">POST-PROCESS</text>
+    <text x="874" y="281" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Scope &#xB7; Duration &#xB7; Norm</text>
+    <line x1="576" y1="270" x2="804" y2="270" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="804" cy="270" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- Engine Output -->
+  <g>
+    <rect x="804" y="394" width="140" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="874" y="418" fill="rgba(255,255,255,0.8)" font-family="monospace" font-size="9" letter-spacing="0.1em" text-anchor="middle">ENGINE OUTPUT</text>
+    <text x="874" y="433" fill="rgba(255,255,255,0.35)" font-family="monospace" font-size="7.5" letter-spacing="0.08em" text-anchor="middle">Executable Plan</text>
+    <line x1="576" y1="300" x2="804" y2="422" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="804" cy="422" r="3" fill="rgba(255,255,255,0.5)"/>
+  </g>
+</svg>

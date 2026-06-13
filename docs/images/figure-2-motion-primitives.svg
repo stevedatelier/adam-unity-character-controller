@@ -1,0 +1,29 @@
+<svg viewBox="0 0 464 278" xmlns="http://www.w3.org/2000/svg">
+  <rect width="464" height="278" fill="#f7f7f7" rx="12"/>
+  <text x="232" y="14" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(65,62,62,0.68)" letter-spacing="0.12em" text-anchor="middle">ALL MOTION REDUCES TO TWO PRIMITIVES</text>
+  <line x1="0" y1="24" x2="464" y2="24" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <line x1="232" y1="24" x2="232" y2="278" stroke="rgba(65,62,62,0.09)" stroke-width="1"/>
+
+  <!-- Hold -->
+  <text x="0" y="68" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="rgba(65,62,62,0.88)">Hold</text>
+  <text x="0" y="100" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11.5" fill="rgba(65,62,62,0.62)">Reaches target</text>
+  <text x="0" y="119" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11.5" fill="rgba(65,62,62,0.62)">Stays there</text>
+  <path d="M 14,248 C 58,234 108,220 162,210" fill="none" stroke="rgba(65,62,62,0.28)" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <polygon points="149,212 158,209 152,218" fill="rgba(65,62,62,0.28)"/>
+  <circle cx="162" cy="210" r="5.5" fill="rgba(65,62,62,0.80)"/>
+  <line x1="162" y1="197" x2="162" y2="202" stroke="rgba(65,62,62,0.32)" stroke-width="1.5"/>
+  <line x1="162" y1="218" x2="162" y2="223" stroke="rgba(65,62,62,0.32)" stroke-width="1.5"/>
+
+  <!-- Oscillate -->
+  <text x="248" y="68" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="rgba(65,62,62,0.88)">Oscillate</text>
+  <text x="248" y="100" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11.5" fill="rgba(65,62,62,0.62)">Moves out</text>
+  <text x="248" y="119" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11.5" fill="rgba(65,62,62,0.62)">Returns</text>
+  <line x1="258" y1="212" x2="452" y2="212" stroke="rgba(65,62,62,0.07)" stroke-width="1"/>
+  <path d="M 258,212 C 276,182 308,182 326,212" fill="none" stroke="rgba(65,62,62,0.50)" stroke-width="1.5"/>
+  <path d="M 326,212 C 344,242 376,242 394,212" fill="none" stroke="rgba(65,62,62,0.28)" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <path d="M 394,212 C 412,182 444,182 462,212" fill="none" stroke="rgba(65,62,62,0.36)" stroke-width="1.5"/>
+  <polygon points="286,179 294,182 286,185" fill="rgba(65,62,62,0.42)"/>
+  <polygon points="368,239 360,242 368,245" fill="rgba(65,62,62,0.24)"/>
+  <circle cx="258" cy="212" r="3.5" fill="rgba(65,62,62,0.60)"/>
+  <circle cx="462" cy="212" r="3.5" fill="none" stroke="rgba(65,62,62,0.38)" stroke-width="1.5"/>
+</svg>

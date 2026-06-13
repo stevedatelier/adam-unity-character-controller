@@ -1,0 +1,18 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="280" fill="#f7f7f7" rx="12"/>
+  <text x="280" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.12em" fill="rgba(65,62,62,0.68)" text-anchor="middle">ROUTING PATH LATENCY COMPARISON (MS)</text>
+
+  <rect x="80" y="60" width="440" height="38" rx="3" fill="rgba(65,62,62,0.12)"/>
+  <text x="70" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">LLM (full)</text>
+  <text x="525" y="83" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">~270ms</text>
+
+  <rect x="80" y="130" width="160" height="38" rx="3" fill="rgba(65,62,62,0.68)"/>
+  <text x="70" y="153" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">Generic op</text>
+  <text x="245" y="153" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">~85ms</text>
+
+  <rect x="80" y="200" width="80" height="38" rx="3" fill="rgba(65,62,62,0.8)"/>
+  <text x="70" y="223" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">Heuristic</text>
+  <text x="165" y="223" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">&lt;5ms</text>
+
+  <text x="280" y="268" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.04em" fill="rgba(65,62,62,0.62)" text-anchor="middle">Stage 1 resolves most prompts — zero inference</text>
+</svg>

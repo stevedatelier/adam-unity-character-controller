@@ -1,0 +1,24 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="280" fill="#f7f7f7" rx="12"/>
+  <text x="280" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.12em" fill="rgba(65,62,62,0.68)" text-anchor="middle">VOICE COMMAND TO ENGINE OUTPUT (MS)</text>
+
+  <rect x="60" y="50" width="120" height="32" rx="3" fill="rgba(65,62,62,0.55)"/>
+  <text x="50" y="70" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">STT</text>
+  <text x="185" y="70" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">~80ms</text>
+
+  <rect x="60" y="110" width="270" height="32" rx="3" fill="rgba(65,62,62,0.75)"/>
+  <text x="50" y="130" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">LLM Gate</text>
+  <text x="335" y="130" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">~180ms (when fired)</text>
+
+  <rect x="60" y="170" width="30" height="32" rx="3" fill="rgba(65,62,62,0.35)"/>
+  <text x="50" y="190" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">Post-proc</text>
+  <text x="95" y="190" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.7)" text-anchor="start">&lt;5ms</text>
+
+  <line x1="60" y1="240" x2="525" y2="240" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <rect x="60" y="232" width="350" height="8" rx="2" fill="rgba(65,62,62,0.15)"/>
+  <text x="50" y="239" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.68)" text-anchor="end">TOTAL</text>
+
+  <line x1="350" y1="40" x2="350" y2="248" stroke="rgba(65,62,62,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="353" y="260" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="8.5" fill="rgba(65,62,62,0.6)">&lt;270ms w/ LLM</text>
+  <text x="280" y="273" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.04em" fill="rgba(65,62,62,0.62)" text-anchor="middle">Stage 1 heuristic: zero inference cost</text>
+</svg>

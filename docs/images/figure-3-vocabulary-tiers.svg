@@ -1,0 +1,93 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="380" fill="#f7f7f7" rx="12"/>
+
+  <!-- Spine -->
+  <line x1="43" y1="0" x2="43" y2="380" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+
+  <!-- T1 — Locomotion -->
+  <rect x="0" y="0" width="560" height="88" fill="#fafafa" rx="0"/>
+  <line x1="0" y1="88" x2="560" y2="88" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <circle cx="43" cy="34" r="4.5" fill="#41403C"/>
+  <text x="20" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.75)" letter-spacing="0.04em">T1</text>
+  <text x="76" y="30" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#111">Locomotion</text>
+  <text x="178" y="30" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(65,62,62,0.55)" letter-spacing="0.07em">FULL GAIT — CYCLIC</text>
+  <text x="76" y="48" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(65,62,62,0.65)">Authored beat sequences · bilateral coupling · bypasses normalizer</text>
+  <!-- tags -->
+  <rect x="76" y="60" width="34" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="93" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">walk</text>
+  <rect x="116" y="60" width="26" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="129" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">jog</text>
+  <rect x="148" y="60" width="28" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="162" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">run</text>
+  <rect x="182" y="60" width="40" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="202" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">sprint</text>
+  <rect x="228" y="60" width="38" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="247" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">dance</text>
+  <rect x="272" y="60" width="30" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="287" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">play</text>
+  <rect x="308" y="60" width="32" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="324" y="73" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">fight</text>
+
+  <!-- T1.5 — Character Overlays -->
+  <rect x="0" y="88" width="560" height="82" fill="#fafafa" rx="0"/>
+  <line x1="0" y1="170" x2="560" y2="170" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <line x1="43" y1="88" x2="43" y2="106" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <line x1="43" y1="106" x2="57" y2="106" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <circle cx="57" cy="106" r="4" fill="#fafafa" stroke="rgba(65,62,62,0.45)" stroke-width="1.5"/>
+  <text x="20" y="102" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.75)" letter-spacing="0.04em">T1.5</text>
+  <text x="76" y="112" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#111">Character Overlays</text>
+  <text x="226" y="112" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(65,62,62,0.55)" letter-spacing="0.07em">ON T1 OR STANDALONE</text>
+  <text x="76" y="130" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(65,62,62,0.65)">Suppresses base arms · injects pose at beat 0 · holds across cycle</text>
+  <rect x="76" y="142" width="48" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="100" y="155" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">zombie</text>
+  <rect x="130" y="142" width="48" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="154" y="155" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">injured</text>
+  <rect x="184" y="142" width="38" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="203" y="155" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">proud</text>
+  <rect x="228" y="142" width="40" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="248" y="155" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">scared</text>
+  <rect x="274" y="142" width="36" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="292" y="155" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">drunk</text>
+
+  <!-- T2 — Postural-Reactive -->
+  <rect x="0" y="170" width="560" height="100" fill="#fafafa" rx="0"/>
+  <line x1="0" y1="270" x2="560" y2="270" stroke="rgba(65,62,62,0.1)" stroke-width="1"/>
+  <circle cx="43" cy="196" r="4.5" fill="#41403C"/>
+  <text x="20" y="192" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.75)" letter-spacing="0.04em">T2</text>
+  <text x="76" y="198" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#111">Postural-Reactive</text>
+  <text x="210" y="198" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(65,62,62,0.55)" letter-spacing="0.07em">ONE-SHOT OR SHORT-CYCLE</text>
+  <text x="76" y="216" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(65,62,62,0.65)">Cross-body state changes · authored timing preserved · normalizer bypassed</text>
+  <!-- tags row 1 -->
+  <rect x="76" y="228" width="32" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="92" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">alert</text>
+  <rect x="114" y="228" width="52" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="140" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">cautious</text>
+  <rect x="172" y="228" width="28" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="186" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">aim</text>
+  <rect x="206" y="228" width="68" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="240" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">triumphant</text>
+  <rect x="280" y="228" width="54" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="307" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">collapse</text>
+  <rect x="340" y="228" width="40" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="360" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">recoil</text>
+  <rect x="386" y="228" width="36" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="404" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">sneak</text>
+  <rect x="428" y="228" width="36" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="446" y="241" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">brace</text>
+
+  <!-- T3 — Single-Region -->
+  <rect x="0" y="270" width="560" height="110" fill="#fafafa" rx="0"/>
+  <circle cx="43" cy="296" r="4.5" fill="#41403C"/>
+  <text x="20" y="292" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="rgba(65,62,62,0.75)" letter-spacing="0.04em">T3</text>
+  <text x="76" y="298" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#111">Single-Region</text>
+  <text x="188" y="298" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(65,62,62,0.55)" letter-spacing="0.07em">BODY-PART TARGETS</text>
+  <text x="76" y="316" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(65,62,62,0.65)">Multi-pass rig resolution · synonym index · side awareness enforced</text>
+  <rect x="76" y="328" width="90" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="121" y="341" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">move/rotate arms</text>
+  <rect x="172" y="328" width="90" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="217" y="341" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">move/rotate legs</text>
+  <rect x="268" y="328" width="104" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="320" y="341" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">move/rotate forearms</text>
+  <rect x="378" y="328" width="82" height="18" rx="3" fill="#fafafa" stroke="rgba(65,62,62,0.15)" stroke-width="1"/>
+  <text x="419" y="341" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">left/right variants</text>
+</svg>
