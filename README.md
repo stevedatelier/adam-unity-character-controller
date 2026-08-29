@@ -96,6 +96,7 @@ This repository contains the **touch-only prototype** — the foundation of Adam
 
 - Unity **2021.3 LTS** or later (URP)
 - The **Assets** folder (distributed separately — see below)
+- The **Builds** folder (distributed separately — see below)
 
 ### Installation
 
@@ -105,21 +106,26 @@ This repository contains the **touch-only prototype** — the foundation of Adam
 git clone https://github.com/stevedatelier/adam-unity-character-controller.git
 ```
 
-**2. Download the Assets folder**
+**2. Download the Assets and Builds folders**
 
-The character models, textures, and scene assets are distributed separately due to file size. Download and place the `Assets/` folder in the root of the cloned repo:
+The character models, textures, scene assets, and packaged builds are distributed separately due to file size. Download both folders:
 
-> **[Download Assets from Google Drive](https://drive.google.com/drive/folders/1tja8iXRrmTxw8pPwiovO4kLRCUTuHR6M?usp=sharing)**
+> **[Download Assets from Google Drive](https://drive.google.com/file/d/1PnJHzkMkbpozL_xgN_JlF1zIBCjqvY33/view?usp=sharing)**
+>
+> **[Download Builds from Google Drive](https://drive.google.com/file/d/1j7BIXDN-DRP7D_XdoIWM8vhnfBULj52D/view?usp=sharing)**
 
-Your folder structure should look like this:
+After downloading and extracting them, place both `Assets/` and `Builds/` in the root of the cloned repository. Your folder structure should look like this:
 
 ```
 adam-unity-character-controller/
 ├── Assets/          ← place downloaded folder here
+├── Builds/          ← place downloaded folder here
 ├── Packages/
 ├── ProjectSettings/
 └── README.md
 ```
+
+![Place the downloaded Assets and Builds folders at the project root alongside Packages and ProjectSettings.](docs/images/package-folder-placement.png)
 
 **3. Open in Unity**
 
@@ -148,6 +154,7 @@ Assets/
 
 ProjectSettings/         # Unity project configuration (URP, physics, input)
 Packages/                # Package manifest and lock file
+Builds/                  # Packaged application builds
 ```
 
 ---
