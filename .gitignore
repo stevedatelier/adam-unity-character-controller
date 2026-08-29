@@ -1,13 +1,13 @@
 # Unity-generated folders
 # These directories are recreated by Unity and should never be committed.
 /.utmp/
-/[Ll]ibrary/
-/[Tt]emp/
+/Library/
+/Temp/
 /[Oo]bj/
 /[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/Builds/
+/Logs/
+/UserSettings/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 
@@ -23,6 +23,7 @@ sysinfo.txt
 *.csproj
 *.unityproj
 *.sln
+.vsconfig
 *.sln.iml
 *.suo
 *.tmp
@@ -46,7 +47,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Project assets are distributed separately and are not stored in Git.
-/[Aa]ssets/
+/Assets/
 /[Aa]ssets.meta
 
 # Keep Unity settings, package manifests, and repository documentation tracked.
