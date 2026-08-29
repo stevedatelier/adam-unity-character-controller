@@ -11,9 +11,7 @@ Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.
 
 ---
 
-## Beginnings
-
-Early footage of the first time a character pushed back.
+## Preview
 
 <table>
 <tbody>
@@ -34,10 +32,6 @@ Early footage of the first time a character pushed back.
 </tr>
 </tbody>
 </table>
-
-### Earlier Prototype
-
-An early Unity prototype exploring articulated character control through touch and language.
 
 <table>
 <tbody>
