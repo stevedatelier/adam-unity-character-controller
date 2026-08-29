@@ -21,7 +21,7 @@ Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.
 <td width="33%"><sub>PROTOTYPE 03</sub></td>
 </tr>
 <tr>
-<td valign="top"><a href="docs/media/prototypes/adam-earliest-demo.mp4" title="Play Prototype 01"><img src="docs/media/prototypes/adam-earliest-demo-poster.webp" alt="First touch test from the earliest Adam prototype." width="100%"></a></td>
+<td valign="top"><a href="docs/media/prototypes/adam-earliest-demo.mp4" title="Open Prototype 01 video"><img src="docs/media/prototypes/adam-earliest-demo.gif" alt="First touch test from the earliest Adam prototype." width="100%"></a></td>
 <td valign="top"><img src="docs/media/prototypes/adam-head-test.webp" alt="Head articulation test from the earliest Adam prototype." width="100%"></td>
 <td valign="top"><img src="docs/media/prototypes/adam-hand-test.webp" alt="Hand articulation test from the earliest Adam prototype." width="100%"></td>
 </tr>
@@ -36,7 +36,7 @@ Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.
 <table>
 <tbody>
 <tr>
-<td><a href="docs/media/prototypes/unity-touch.mp4" title="Play the earlier Unity prototype"><img src="docs/media/prototypes/unity-touch-poster.jpg" alt="Early Unity touch-control prototype." width="100%"></a></td>
+<td><a href="docs/media/prototypes/unity-touch.mp4" title="Open the earlier Unity prototype video"><img src="docs/media/prototypes/unity-touch.gif" alt="Early Unity touch-control prototype." width="100%"></a></td>
 </tr>
 <tr>
 <td><strong>Figure 4.</strong> An early Unity prototype exploring touch control. Tap the figure and it responds — limited range, but the core loop was working. Everything since has been teaching it to perform.</td>
