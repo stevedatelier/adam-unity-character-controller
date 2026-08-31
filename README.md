@@ -114,6 +114,8 @@ The character models, textures, scene assets, and packaged builds are distribute
 >
 > **[Download Builds from Google Drive](https://drive.google.com/file/d/1j7BIXDN-DRP7D_XdoIWM8vhnfBULj52D/view?usp=sharing)**
 
+To run the Windows build, download the ZIP from the build link above and extract the entire ZIP before opening the application. Keep `Final_Toy.exe`, the `Final_Toy_Data` folder, `UnityPlayer.dll`, and all other generated build files together. In the extracted build folder, double-click the actual `Final_Toy.exe` application, not a shortcut.
+
 After downloading and extracting them, place both `Assets/` and `Builds/` in the root of the cloned repository. Your folder structure should look like this:
 
 ```
@@ -312,32 +314,32 @@ To experience the latest version: [adam10.com](https://adam10.com)
 
 ##### Run the packaged application without opening Unity
 
-<p>If the project download includes the completed Windows build and its shortcut, users do not need Unity Hub or the Unity Editor just to run the robot application.</p>
+<p>The completed Windows build runs without Unity Hub or the Unity Editor. Download and extract it as described below.</p>
 
 <table>
 <tbody>
 <tr>
 <td width="51%">
-<p align="center"><img src="docs/images/animation-rigging/image3.png" alt="Launch screenshot A. The Unity-logo shortcut used to start Final_Toy.exe without opening the Unity Editor."></p>
-<p><em><em>Launch screenshot A. The Unity-logo shortcut used to start Final_Toy.exe without opening the Unity Editor.</em></em></p>
+<p align="center"><img src="docs/images/animation-rigging/image3.png" alt="Launch screenshot A. Run Final_Toy.exe directly without opening the Unity Editor."></p>
+<p><em><em>Launch screenshot A. Run Final_Toy.exe directly without opening the Unity Editor.</em></em></p>
 </td>
 <td width="49%">
 <p><strong>Launch the finished application</strong></p>
-<p>1. Locate the desktop or folder shortcut labeled Final_Toy.exe - Shortcut.</p>
-<p>2. Double-click the shortcut. Windows follows its saved target and starts the packaged Unity application directly.</p>
-<p>3. Keep the built executable and its accompanying build-data folder in their distributed locations. Moving only the executable can prevent a Unity build from starting.</p>
-<p>4. If the shortcut reports that its target is missing, right-click it, open Properties, and inspect the Shortcut &gt; Target field. The screenshots do not reveal the target path, so this document cannot confirm its exact location.</p>
+<p>1. Download the Windows build ZIP from the <a href="https://drive.google.com/file/d/1j7BIXDN-DRP7D_XdoIWM8vhnfBULj52D/view?usp=sharing">Download Builds</a> link.</p>
+<p>2. Extract the entire ZIP before opening the application.</p>
+<p>3. Keep Final_Toy.exe, the Final_Toy_Data folder, UnityPlayer.dll, and all other generated build files together.</p>
+<p>4. In the extracted build folder, double-click the actual Final_Toy.exe application, not a shortcut.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<p align="center"><img src="docs/images/animation-rigging/image4.png" alt="Close crop showing the Windows shortcut icon and the label Final_Toy.exe - Shortcut."></p>
+<p align="center"><img src="docs/images/animation-rigging/image4.png" alt="Launch screenshot B. Open the actual Final_Toy.exe application."></p>
 
-<p align="center"><em><em>Launch screenshot B. Close view of the confirmed shortcut label: Final_Toy.exe - Shortcut.</em></em></p>
+<p align="center"><em><em>Launch screenshot B. Open the actual Final_Toy.exe application.</em></em></p>
 
 <blockquote>
-<p><strong>EDITING VERSUS RUNNING  </strong>Use the shortcut for experiencing and testing the already-built application. Open Unity_Adam_Studio in Unity only when you need to inspect the hierarchy, change the rig, modify controls, or create a new build.</p>
+<p><strong>EDITING VERSUS RUNNING  </strong>Use Final_Toy.exe for experiencing and testing the already-built application. Open Unity_Adam_Studio in Unity only when you need to inspect the hierarchy, change the rig, modify controls, or create a new build.</p>
 </blockquote>
 
 #### 2. Scene and hierarchy tour
@@ -1164,7 +1166,7 @@ To experience the latest version: [adam10.com](https://adam10.com)
 <li>Unity version, main scene path, package versions, build scene, URP, legacy input mode, tags, and relevant model-import settings.</li>
 <li>The root Animator/Rig Builder, 17 active non-null Rig layers, 13 Multi-Aim Constraints, four Two Bone IK Constraints, targets, weights, and serialized chain references.</li>
 <li>Main Camera prefab components, legacy desktop camera bindings, Physics.Raycast selection, cube tag filter, collider requirement, touch/mouse rotation mapping, WebGL sensitivity math, and router JSON commands.</li>
-<li>All twelve supplied screenshots and their visible Inspector/Hierarchy/Game-view/shortcut evidence.</li>
+<li>All twelve supplied screenshots and their visible Inspector/Hierarchy/Game-view/application evidence.</li>
 </ul>
 
 ##### Not confirmed / not present
