@@ -6,6 +6,16 @@ Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.
 
 ---
 
+## Walking Adam Behavior Experiment
+
+<video src="docs/media/adam-walking-behavior-console.mp4" controls="controls" width="100%"></video>
+
+This experiment shows Adam's articulated **WALK** behavior running in Unity through the behavior console. The console presents the robot definition, joint targets, measured simulation state, foot-contact state, and the active walking phase.
+
+The intended architecture is one robot definition and behavior contract that can run across Unity, MuJoCo, Isaac, and eventually physical Adam. Unity is the runtime shown here; MuJoCo, Isaac, and physical hardware remain future work. This entry documents an experiment in the Unity project, not a claim that walking is live in the browser app or on hardware.
+
+---
+
 <!-- BANNER IMAGE -->
 <!-- Replace with project banner: ![Banner](docs/images/banner.png) -->
 
@@ -68,7 +78,7 @@ This repository contains the **touch-only prototype** — the foundation of Adam
 - Voice input or speech-to-text
 - Text / chat command interface
 
-**Only touch interaction is supported in this release.** The full Adam 1.0 system — including voice commands, AI-powered intent routing, and the complete language interface described in the [case study](https://adam10.com/introducing-adam-10) — is not part of this open release.
+**Only touch interaction is supported in this release.** The full Adam 1.0 system — including voice commands, AI-powered intent routing, and the complete language interface described in the [case study](https://adam10.com/adam-case-study) — is not part of this open release.
 
 > **Want to build with us?** Reach out at [steve@adam10.com](mailto:steve@adam10.com)
 >
@@ -1281,15 +1291,28 @@ Motion is resolved through discrete articulated segments. Every motion in the sy
 
 The language model's most consequential decision in Format B output reduces to a single binary semantic question: is this prompt describing a state or an action? The semantic answer maps directly to a mechanical choice, and the mechanical choice produces the correct visual communication to a viewer.
 
-<!-- FIGURE 5: Articulation — Assembled & Exploded Arm -->
-<!-- Replace with: ![Figure 5 — Assembled Arm](docs/images/figure-5-assembled-arm.png) and ![Figure 5 — Exploded Arm](docs/images/figure-5-exploded-arm.png) -->
-<!-- Two side-by-side video stills (3:4 ratio): left = assembled arm looping animation, right = exploded arm looping animation -->
-<!-- Caption: Figure 5. Discrete articulated segments. Motion is resolved through authored parts and joints, not freeform deformation. -->
+Adam is built from discrete articulated parts rather than a continuously deforming body. The assembled and exploded views below show that structure directly.
 
-<!-- FIGURE 6: Full Body Assembled -->
-<!-- Replace with: ![Figure 6 — Full Body Assembled](docs/images/figure-6-full-body.png) -->
-<!-- Single video still (3:4 ratio): full body assembled looping animation -->
-<!-- Caption: Figure 6. The same articulation logic extends across the full figure, allowing motion to be routed through a constrained physical vocabulary. -->
+<table>
+<tr>
+<td width="50%" align="center">
+<p><strong>ASSEMBLED</strong></p>
+<img src="docs/media/prototypes/Assembled-Arm.png" alt="Assembled articulated arm" width="100%">
+</td>
+<td width="50%" align="center">
+<p><strong>EXPLODED</strong></p>
+<img src="docs/media/prototypes/Exploded-Arm.png" alt="Exploded articulated arm" width="100%">
+</td>
+</tr>
+</table>
+
+**Figure 5.** Discrete articulated segments. Motion is resolved through authored parts and joints, not freeform deformation.
+
+The same structure extends across the full figure.
+
+<p align="center"><img src="docs/media/prototypes/Full-Body-Assembled.png" alt="Full articulated Adam figure" width="55%"></p>
+
+**Figure 6.** The same articulation logic extends across the full figure, allowing motion to be routed through a constrained physical vocabulary.
 
 ---
 
