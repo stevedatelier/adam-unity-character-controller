@@ -1297,11 +1297,15 @@ Adam is built from discrete articulated parts rather than a continuously deformi
 <tr>
 <td width="50%" align="center">
 <p><strong>ASSEMBLED</strong></p>
-<img src="docs/media/prototypes/Assembled-Arm.png" alt="Assembled articulated arm" width="100%">
+<a href="docs/media/prototypes/Assembled-Arm.mp4">
+  <img src="docs/media/prototypes/Assembled-Arm.gif" alt="Assembled articulated arm" width="100%">
+</a>
 </td>
 <td width="50%" align="center">
 <p><strong>EXPLODED</strong></p>
-<img src="docs/media/prototypes/Exploded-Arm.png" alt="Exploded articulated arm" width="100%">
+<a href="docs/media/prototypes/Exploded-Arm.mp4">
+  <img src="docs/media/prototypes/Exploded-Arm.gif" alt="Exploded articulated arm" width="100%">
+</a>
 </td>
 </tr>
 </table>
@@ -1310,7 +1314,11 @@ Adam is built from discrete articulated parts rather than a continuously deformi
 
 The same structure extends across the full figure.
 
-<p align="center"><img src="docs/media/prototypes/Full-Body-Assembled.png" alt="Full articulated Adam figure" width="55%"></p>
+<p align="center">
+  <a href="docs/media/prototypes/Full-Body-Assembled.mp4">
+    <img src="docs/media/prototypes/Full-Body-Assembled.gif" alt="Full articulated Adam figure" width="55%">
+  </a>
+</p>
 
 **Figure 6.** The same articulation logic extends across the full figure, allowing motion to be routed through a constrained physical vocabulary.
 
