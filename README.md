@@ -21,6 +21,11 @@ The intended architecture is one robot definition and behavior contract that can
 <!-- BANNER IMAGE -->
 <!-- Replace with project banner: ![Banner](docs/images/banner.png) -->
 
+<p align="center">
+  <a href="docs/media/adam-walking-behavior-console.mp4">
+    <img src="docs/images/adam-x-upload-clean.gif" alt="Adam behavior demo" width="100%">
+  </a>
+</p>
 ---
 
 ## Preview
