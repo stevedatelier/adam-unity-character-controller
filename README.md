@@ -1,6 +1,7 @@
 # Adam Unity Character Controller
 
 > An early Unity prototype exploring articulated character control through touch and language — one of the earliest foundations behind [Adam](https://adam10.com), our ongoing exploration into interactive characters and physical intelligence.
+> 
 Play Adam [adam10.com/app](https://adam10.com/app)
 Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.com/introducing-adam-10)
 
