@@ -14,7 +14,7 @@ Read the full project write-up: [adam10.com/introducing-adam-10](https://adam10.
 
 This experiment shows Adam's articulated **WALK** behavior running in Unity through the behavior console. The console presents the robot definition, joint targets, measured simulation state, foot-contact state, and the active walking phase.
 
-The intended architecture is one robot definition and behavior contract that can run across Unity, MuJoCo, Isaac, and eventually physical Adam. Unity is the runtime shown here; MuJoCo, Isaac, and physical hardware remain future work.
+The intended architecture is one robot definition and behavior contract that can run across Unity, MuJoCo, Isaac, and eventually physical Adam. Unity is the runtime shown here; MuJoCo, Isaac, and physical hardware.
 
 ---
 
